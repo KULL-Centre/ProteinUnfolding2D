@@ -15,8 +15,8 @@ The examples directory contains a number of use cases that shows how to use the 
 
 - Python version >= 3.6
 - numpy
-- xlrd
-- lmfit
+- xlrd (only version 1.2 reads .xlsx files. For newer versions, convert to .xls using Excel)
+- lmfit version 1.0.1
 - copy
 
 ### References
