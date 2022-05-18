@@ -38,7 +38,7 @@ edm install "matplotlib == 3.3.4-3" --environment ProteinUnfolding2D
 edm install jupyter --environment ProteinUnfolding2D
 
 # activate environment and check
-edm shell --environment tutorial
+edm shell --environment ProteinUnfolding2D
 edm
 edm list
 ```
