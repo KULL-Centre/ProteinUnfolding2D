@@ -29,18 +29,16 @@ Doc: http://docs.enthought.com/edm/user/cli.html
 ````bash
 # install python 3.6 environment
 edm environments create ProteinUnfolding2D --version 3.6
-# edm search xlrd
-# xlrd    1.0.0-1  enthought/free
-#         1.2.0-1  enthought/free
 edm install "xlrd == 1.2.0-1" --environment ProteinUnfolding2D
 edm install "lmfit == 0.9.2-14" --environment ProteinUnfolding2D
 edm install "matplotlib == 3.3.4-3" --environment ProteinUnfolding2D
 edm install jupyter --environment ProteinUnfolding2D
 
-# activate environment and check
+# activate environment in default shell
 edm shell --environment ProteinUnfolding2D
-edm
-edm list
+
+# open notebook in default browser
+jupyter notebook 20191202_ACBP.ipynb
 ```
 
 
