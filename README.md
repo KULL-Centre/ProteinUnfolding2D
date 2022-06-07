@@ -5,6 +5,12 @@ Python library for thermodynamic analysis of protein unfolding using both temper
 
 Current version is made for data from NanoTemper Prometheus, see fork by rnorrild for NanoTemper Panta version
 
+Hints for usage:
+- Remember to use the 'processed' output from the NanoTemper and to put denaturant concentrations in the spreadsheet
+- The first part of the notebook selects the sample and temperature range to use. Start by selecting all and look at the plots to identify outliers
+- Some of the initial parameters are guessed, e.g. the heat capasity is guessed from the number of amino acids
+- If the fit fails, try to obtain better initial parameters or remove outliers at extreem temperatures or samples with large pipetting errors or precipitation
+
 ### Examples
 
 The examples directory contains a number of use cases that shows how to use the library
@@ -38,7 +44,7 @@ edm install jupyter --environment ProteinUnfolding2D
 edm shell --environment ProteinUnfolding2D
 
 # open notebook in default browser
-jupyter notebook 20191202_ACBP.ipynb
+jupyter notebook examples/ACBP_unfolding2d.ipynb
 ```
 
 
