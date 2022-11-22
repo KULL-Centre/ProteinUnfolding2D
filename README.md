@@ -9,7 +9,7 @@ Hints for usage:
 - Remember to use the 'processed' output from the NanoTemper and to put denaturant concentrations in the spreadsheet
 - The first part of the notebook selects the sample and temperature range to use. Start by selecting all and look at the plots to identify outliers
 - Some of the initial parameters are guessed, e.g. the heat capasity is guessed from the number of amino acids
-- If the fit fails, try to obtain better initial parameters or remove outliers at extreem temperatures or samples with large pipetting errors or precipitation
+- If the fit fails, try to obtain better initial parameters or remove outliers at extreem temperatures or samples that look wird. To improve the initial parameters, try to scan dH, comment out guessing of heat capacity and m-value or comment-in the code that plots the initial base-plane parameters (baselines in temperatuer and denaturent)
 
 ### Examples
 
