@@ -43,6 +43,9 @@ edm install jupyter --environment ProteinUnfolding2D
 # activate environment in default shell
 edm shell --environment ProteinUnfolding2D
 
+# first time you may need to enable widgets to see the slider in denaturent plots
+jupyter nbextension enable --py widgetsnbextension
+
 # open notebook in default browser
 jupyter notebook examples/ACBP_unfolding2d.ipynb
 ```
