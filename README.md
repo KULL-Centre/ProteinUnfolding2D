@@ -14,7 +14,7 @@ Hints for usage:
 The examples directory contains a number of use cases that shows how to use the library
 
 - 20191202_ACBP.ipynb : Jupyter notebook used in the original description of the library [1]
-- Sin3bPAH1_unfolding2d.ipynb : Kind of a negative example used to test output files from 2026 or newer
+- Sin3bPAH1_unfolding2d.ipynb : Kind of a negative example (poor fit) used to test NanoTemper Prometheus output files from 2026 or newer
 - PantaExample.ipynb : Test for NanoTemper Penta output. Credit to [Rasmus Norrild!](https://github.com/rnorrild/ProteinUnfolding2D)
 
 ### Dependencies
