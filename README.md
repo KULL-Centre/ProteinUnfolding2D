@@ -19,7 +19,7 @@ The examples directory contains a number of use cases that shows how to use the 
 
 ### Dependencies
 
-conda -create ./env python==3.13 numpy xlrd openpyxl lmfit matplotlib jupyter
+conda create -p ./nanotemper_env python==3.13 numpy xlrd openpyxl lmfit matplotlib jupyter
 
 ### References
 
